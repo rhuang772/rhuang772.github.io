@@ -190,6 +190,11 @@ a:hover {
 
 }
 
+.project-description:hover {
+    transition: 0.6s;
+    transform: scale(1.1); 
+ }
+
 h1 {
     font-size: 40px;
     font-weight:600;
@@ -277,10 +282,16 @@ h3{
     padding-top: 70px;
 }
 
+
 h4 {
     font-size: 40px;
     font-weight:600;
     color: white;
+}
+
+.about-description:hover {
+   transition: 0.6s;
+   transform: scale(1.1); 
 }
 
 p2 {
@@ -322,6 +333,7 @@ p {
     padding: 20px 12px;
     box-sizing:border-box;
     transition: 0.6s;
+    box-shadow: 0 0 20px 0px rgba(240, 238, 238, 0.957);
 }
 
 h2{
@@ -331,15 +343,17 @@ h2{
 }
 
 .about-col:hover{
-    box-shadow: 0 0 20px 0px rgba(240, 238, 238, 0.957);
+    box-shadow: 0 0 20px 0px rgba(224, 141, 59, 0.957);
+    background: rgba(241, 142, 142, 0.7);
 }
 
-/*.zipcar-symbol:before {
-    content: "\f1b9";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    margin-right: 10px;
-  }*/
+.about-col img {
+    transition: transform 0.4s ease-in-out;
+}
+
+.about-col img:hover {
+    transform: scale(1.2);
+}
 
 @media(max-width: 700px) {
     .about-row {
