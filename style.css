@@ -187,7 +187,13 @@ a:hover {
     position:relative;
     text-align: center;
     padding-top: 70px; 
+    transition: opacity 1s ease-in-out; /* Add transition property */
+    opacity: 0; /* Set initial opacity to 0 */
 
+}
+
+.Projects.show {
+    opacity: 1;
 }
 
 .project-description:hover {
@@ -393,6 +399,7 @@ h2{
     background-size: cover;
     text-align: center;
     color: #fff;
+    border-radius: 40px;
 }
 
 
@@ -405,6 +412,12 @@ h2{
     background-size: cover;
     text-align: center;
     color: #fff;
+    transition: opacity 0.5s ease-in-out; /* Add transition property */
+    opacity: 0; /* Set initial opacity to 0 */
+}
+
+.sub-header2.show {
+    opacity: 1;
 }
 
 @media(max-width: 700px) {
@@ -434,6 +447,13 @@ h2{
     width: 100%;
     margin:auto;
     padding: 80px 0;
+    border-radius: 40px;
+    transition: opacity 2s ease-in-out; /* Add transition property */
+    opacity: 0; /* Set initial opacity to 0 */
+}
+
+.location.show {
+    opacity: 1;
 }
 
 .location iframe {
@@ -448,7 +468,14 @@ h2{
     width: 100%;
     /* margin:  80px auto 0 */
     margin: auto;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.3);
+    border-radius: 40px;
+    transition: opacity 2s ease-in-out; /* Add transition property */
+    opacity: 0; /* Set initial opacity to 0 */
+}
 
+.contact-me.show { /* Add show class to reveal element */
+    opacity: 1; /* Set opacity to 1 to show element */
 }
 .contact-col {
     flex-basis: 48%;
