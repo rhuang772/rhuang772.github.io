@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <title>rogerhuang</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+<script src="https://kit.fontawesome.com/1df3c5882b.js"> </script>
+</head>
+
+</body>
+    <section class="sub-header2">
+        <nav>
+            <a href="index.html">roger huang</a>
+            <div class = "nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="projects.html">projects</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>    
+    </section>
+
+
+    <!--learn more about projects-->
+    <section class="Projects">
+        <div class="project-description">
+            <h1>Projects<br></h1>
+            <p5>a brief summary of my work</p5>
+        </div>
+        <div class="row">
+
+            <div class="project-col">
+                <h3>Image Processing Application - JAVA</h3>
+                <p> <img href="" src="images/GUIImageProcessor.png" style="max-width: 100%; height:auto;"><br>
+                    - Utilized Java MVC (Model, View, Controller) principles to design a program that modifies, loads, and saves images of different formats (.ppm, .jpeg, .png, etc).<br><br>
+                    - Implemented different editing preferences for users, such as brightening, darkening, gray scaling, color-blocking.<br><br>
+                    - Utilized Java Swing to implement a functional GUI neatly displaying all features, implemented under 1 week deadline and thoroughly tested with JUnit.<br><br>
+                    <a href="https://github.com/rhuang772/Image-Processor">View It Here!</a>
+                </p>
+            </div>
+            <div class="project-col">
+                <h3>Flood-It Game - JAVA</h3>
+                <p>- Simulated the online Flood-It game, where the objective is to “flood” entire board with 1 color in < 25 steps.<br><br>
+                    - Included waterfall animation that gradually floods cells one by one with a tick function that utilizes Depth-First Search for UI improvement.<br><br>
+                    - Gave user ability to instantly restart/reset game if insufficient moves were made and gradually keeps track of score. <br><br>
+                    <a href="https://github.com/rhuang772/Flood-It">View It Here!<br><br></a>
+                    <img href="" src="images/FloodIt.png" style="max-width: 100%; height:auto"><br>
+                </p>
+            </div>
+            <div class="project-col">
+                <h3>Maze - JAVA</h3>
+                <p> <img href="" src="images/Maze.png" style="max-width: 100%; height:auto"><br>
+                    - Implemented a solvable maze utilizing the concept of Kruskal’s Algorithm.<br><br>
+                    - Solving speed optimized with either Breadth-First or Depth-First search – searches all possible pathways going to and from each cell of maze.<br><br>
+                    - Designed tick function that animates the solving process in a gradual waterfall fashion for better UI.<br><br>
+                    <a href="https://github.com/rhuang772/Maze">View It Here!<br><br></a>
+                </p>
+            </div>
+            <div class="project-col">
+                <h3>Marble Solitaire - JAVA</h3>
+                <p>- Utilized Java MVC (Model, View, Controller) principles to simulate the popular game marble solitaire.<br><br>
+                    - User has ability to start the game, make moves and receive information on invalid moves made.<br><br>
+                    - Thoroughly tested with JUnit Testing.<br><br>
+                    <a href="https://github.com/rhuang772/Marble-Solitaire">View It Here!<br><br></a>
+                    <img href="" src="images/MarbleSolitaire.png" style="max-width: 100%; height:auto"><br>
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+    
+    <!--JavaScript for toggling menu items on mobile/smaller devices-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
