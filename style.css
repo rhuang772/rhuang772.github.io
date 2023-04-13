@@ -11,14 +11,9 @@
     background-position: center;
     background-size: cover;
     position:relative;
-    transition: opacity 1s ease-in-out; /* Add transition property */
-    opacity: 0; /* Set initial opacity to 0 */
+    /* transition: opacity 1s ease-in-out; /* Add transition property */
+    /* opacity: 0; /* Set initial opacity to 0 */
 }
-
-.header.show {
-    opacity: 1;
-}
-
 
 nav {
     display: flex;
@@ -195,14 +190,11 @@ a:hover {
     position:relative;
     text-align: center;
     padding-top: 70px; 
-    transition: opacity 2.5s ease-in-out; /* Add transition property */
-    opacity: 0; /* Set initial opacity to 0 */
+     /* transition: opacity 2.5s ease-in-out; /* Add transition property */
+    /* opacity: 0; /* Set initial opacity to 0 */
 
 }
 
-.Projects.show {
-    opacity: 1;
-}
 
 .project-description:hover {
     transition: 0.6s;
@@ -295,13 +287,10 @@ h3{
     position:relative;
     text-align: center;
     padding-top: 70px;
-    transition: opacity 2.5s ease-in-out; /* Add transition property */
-    opacity: 0; /* Set initial opacity to 0 */
+    /* transition: opacity 2.5s ease-in-out;  Add transition property */
+    /* opacity: 0;  Set initial opacity to 0 */
 }
 
-.about.show {
-    opacity: 1;
-}
 
 
 h4 {
@@ -382,14 +371,11 @@ h2{
     width: 100%;
     text-align: center;
     padding: 30px 0;
-    transition: opacity 1s ease-in-out; /* Add transition property */
-    opacity: 0; /* Set initial opacity to 0 */
+    /* transition: opacity 1s ease-in-out;  Add transition property */
+    /* opacity: 0;  Set initial opacity to 0 */
 
 }
 
-.contact.show {
-    opacity: 1;
-}
 
 .contact p {
     color: white;
@@ -419,13 +405,10 @@ h2{
     background-size: cover;
     text-align: center;
     color: #fff;
-    transition: opacity 0.5s ease-in-out; /* Add transition property */
-    opacity: 0; /* Set initial opacity to 0 */
+    /* transition: opacity 0.5s ease-in-out; Add transition property */
+    /* opacity: 0; Set initial opacity to 0 */
 }
 
-.sub-header1.show {
-    opacity: 1;
-}
 
 
 /*---projects page---*/
@@ -437,13 +420,10 @@ h2{
     background-size: cover;
     text-align: center;
     color: #fff;
-    transition: opacity 0.5s ease-in-out; /* Add transition property */
-    opacity: 0; /* Set initial opacity to 0 */
+    /* transition: opacity 0.5s ease-in-out; /* Add transition property */
+    /* opacity: 0; Set initial opacity to 0 */
 }
 
-.sub-header2.show {
-    opacity: 1;
-}
 
 @media(max-width: 700px) {
     .sub-header2 nav a {
@@ -473,13 +453,10 @@ h2{
     margin:auto;
     padding: 80px 0;
     /* border-radius: 40px; */
-    transition: opacity 2s ease-in-out; /* Add transition property */
-    opacity: 0; /* Set initial opacity to 0 */
+    /* transition: opacity 2s ease-in-out; /* Add transition property */
+    /* opacity: 0; Set initial opacity to 0  */
 }
 
-.location.show {
-    opacity: 1;
-}
 
 .location iframe {
     width: 100%;
@@ -493,13 +470,10 @@ h2{
     margin: auto;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.3);
     border-radius: 40px;
-    transition: opacity 2s ease-in-out; /* Add transition property */
-    opacity: 0; /* Set initial opacity to 0 */
+    /* transition: opacity 2s ease-in-out; /* Add transition property */
+    /* opacity: 0; Set initial opacity to 0 */ 
 }
 
-.contact-me.show { /* Add show class to reveal element */
-    opacity: 1; /* Set opacity to 1 to show element */
-}
 .contact-col {
     flex-basis: 48%;
     margin-bottom: 30px;
