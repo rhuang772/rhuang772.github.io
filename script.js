@@ -1,7 +1,34 @@
 
 document.addEventListener('DOMContentLoaded', function() {
-    const elementsToShow = document.querySelectorAll('.contact-me, .location, .Projects, .sub-header2, .header, .contact, .sub-header1, .about');
-    elementsToShow.forEach(function(element) {
-        element.classList.add('show');
-    });
+    document.querySelector('.contact-me').classList.add('show');
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('.location').classList.add('show');
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('.Projects').classList.add('show');
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('.sub-header2').classList.add('show');
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('.header').classList.add('show');
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('.contact').classList.add('show');
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('.sub-header1').classList.add('show');
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('.about').classList.add('show');
 });
