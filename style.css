@@ -11,7 +11,15 @@
     background-position: center;
     background-size: cover;
     position:relative;
+    transition: opacity 1s ease-in-out; /* Add transition property */
+    opacity: 0; /* Set initial opacity to 0 */
 }
+
+.header.show {
+    opacity: 1;
+}
+
+
 nav {
     display: flex;
     padding: 2% 6%;
@@ -187,7 +195,7 @@ a:hover {
     position:relative;
     text-align: center;
     padding-top: 70px; 
-    transition: opacity 1s ease-in-out; /* Add transition property */
+    transition: opacity 2.5s ease-in-out; /* Add transition property */
     opacity: 0; /* Set initial opacity to 0 */
 
 }
@@ -287,6 +295,12 @@ h3{
     position:relative;
     text-align: center;
     padding-top: 70px;
+    transition: opacity 2.5s ease-in-out; /* Add transition property */
+    opacity: 0; /* Set initial opacity to 0 */
+}
+
+.about.show {
+    opacity: 1;
 }
 
 
@@ -368,7 +382,13 @@ h2{
     width: 100%;
     text-align: center;
     padding: 30px 0;
+    transition: opacity 1s ease-in-out; /* Add transition property */
+    opacity: 0; /* Set initial opacity to 0 */
 
+}
+
+.contact.show {
+    opacity: 1;
 }
 
 .contact p {
@@ -399,7 +419,12 @@ h2{
     background-size: cover;
     text-align: center;
     color: #fff;
-    border-radius: 40px;
+    transition: opacity 0.5s ease-in-out; /* Add transition property */
+    opacity: 0; /* Set initial opacity to 0 */
+}
+
+.sub-header1.show {
+    opacity: 1;
 }
 
 
@@ -447,7 +472,7 @@ h2{
     width: 100%;
     margin:auto;
     padding: 80px 0;
-    border-radius: 40px;
+    /* border-radius: 40px; */
     transition: opacity 2s ease-in-out; /* Add transition property */
     opacity: 0; /* Set initial opacity to 0 */
 }
@@ -464,9 +489,7 @@ h2{
     background-image: linear-gradient(rgba(83, 4, 4, 0.7), rgba(127, 55, 8, 0.7));
     background-size: cover;
     background-position: center;
-    /* width: 80%; */
     width: 100%;
-    /* margin:  80px auto 0 */
     margin: auto;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.3);
     border-radius: 40px;
@@ -504,12 +527,12 @@ h2{
 .contact-col div h8 {
     font-size: 20px;
     margin-bottom: 5px;
-    color: #555;
+    color: #ececf1;
     font-weight: 400;
 }
 
 .contact-col p {
-    color: black;
+    color: rgb(244, 248, 249);
 }
 
 .contact-col input, .contact-col textarea {
@@ -522,7 +545,7 @@ h2{
 }
 
 .contact-col button {
-    color: black;
+    color: white;
     border: 1px solid #ccc;
 }
 
