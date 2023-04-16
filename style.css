@@ -4,6 +4,15 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
 .header {
     min-height: 100vh;
     width: 100%;
@@ -11,13 +20,16 @@
     background-position: center;
     background-size: cover;
     position:relative;
-     transition: opacity 1s ease-in-out; 
-     opacity: 0; 
+     /* transition: opacity 1s ease-in-out; 
+     opacity: 0;  */
+     opacity: 0.9;
+     animation: fadeIn 2s ease-in-out forwards;
+
 }
 
-.header.show {
+/* .header.show {
     opacity: 1;
-}
+} */
 
 nav {
     display: flex;
@@ -102,6 +114,7 @@ nav a  {
 .text-box img:hover {
     transform: scale(1.1);
 }
+
 
 @keyframes rotateFadeIn {
     0% {
@@ -194,14 +207,17 @@ a:hover {
     position:relative;
     text-align: center;
     padding-top: 70px; 
-     transition: opacity 2.5s ease-in-out;
-     opacity: 0; 
+     /* transition: opacity 2.5s ease-in-out;
+     opacity: 0;  */
+     opacity: 0.9;
+     animation: fadeIn 2s ease-in-out forwards;
+
 
 }
 
-.Projects.show {
+/* .Projects.show {
     opacity: 1;
-}
+} */
 
 
 .project-description:hover {
@@ -295,13 +311,16 @@ h3{
     position:relative;
     text-align: center;
     padding-top: 70px;
-    transition: opacity 2.5s ease-in-out; 
-    opacity: 0; 
+    /* transition: opacity 2.5s ease-in-out; 
+    opacity: 0;  */
+    opacity: 0.9;
+    animation: fadeIn 2s ease-in-out forwards;
+
 }
 
-.about.show {
+/* .about.show {
     opacity: 1;
-}
+} */
 
 
 h4 {
@@ -382,14 +401,17 @@ h2{
     width: 100%;
     text-align: center;
     padding: 30px 0;
-    transition: opacity 1s ease-in-out; 
-    opacity: 0; 
+    /* transition: opacity 1s ease-in-out; 
+    opacity: 0;  */
+    opacity: 0.9;
+    animation: fadeIn 2s ease-in-out forwards;
+
 
 }
 
-.contact.show {
+/* .contact.show {
     opacity: 1;
-}
+} */
 
 
 .contact p {
@@ -424,13 +446,16 @@ h2{
     background-size: cover;
     text-align: center;
     color: #fff;
-     transition: opacity 0.5s ease-in-out; 
-     opacity: 0;  
+     /* transition: opacity 0.5s ease-in-out; 
+     opacity: 0;   */
+     /* opacity: 0.9;
+     animation: fadeIn 2s ease-in-out forwards; */
+
 }
 
-.sub-header1.show {
+/* .sub-header1.show {
     opacity: 1;
-}
+} */
 
 
 
@@ -443,13 +468,16 @@ h2{
     background-size: cover;
     text-align: center;
     color: #fff;
-    transition: opacity 0.5s ease-in-out;  
-    opacity: 0;  
+    /* transition: opacity 0.5s ease-in-out;  
+    opacity: 0;   */
+    /* opacity: 0.9;
+    animation: fadeIn 2s ease-in-out forwards; */
+
 }
 
-.sub-header2.show {
+/* .sub-header2.show {
     opacity: 1;
-}
+} */
 
 
 @media(max-width: 700px) {
@@ -480,13 +508,16 @@ h2{
     margin:auto;
     padding: 80px 0;
     /* border-radius: 40px; */
-    transition: opacity 2s ease-in-out;
-    opacity: 0;
+    /* transition: opacity 2s ease-in-out;
+    opacity: 0; */
+    opacity: 0.9;
+    animation: fadeIn 2s ease-in-out forwards;
+
 }
 
-.location.show {
+/* .location.show {
     opacity: 1;
-}
+} */
 
 
 .location iframe {
@@ -501,13 +532,16 @@ h2{
     margin: auto;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.3);
     border-radius: 40px;
-    transition: opacity 2s ease-in-out;  
-    opacity: 0; 
-}
+    /* transition: opacity 2s ease-in-out;  
+    opacity: 0;  */
+    opacity: 0.9;
+    animation: fadeIn 2s ease-in-out forwards;
 
+}
+/* 
 .contact-me.show {
     opacity: 1;
-}
+} */
 
 .contact-col {
     flex-basis: 48%;
