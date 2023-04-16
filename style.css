@@ -397,6 +397,10 @@ h2{
     font-size:x-large;
 }
 
+.contact a {
+    text-decoration: none;
+}
+
 @media(max-width: 700px) {
     .about-row {
         flex-direction: column;
